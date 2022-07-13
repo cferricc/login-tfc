@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './styles.css';
 import ButtonPrimary from './ButtonPrimary'
+import ButtonSecondary from './ButtonSecondary'
 
 function App() {
   const [email, setEmail] = useState('')
@@ -36,6 +37,7 @@ function App() {
         <div className='login__divider'>
           <hr /> <span>OR</span> <hr />
     </div>
+    <ButtonSecondary name='create account' />
     </div>
     </div>
   )
