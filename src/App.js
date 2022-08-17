@@ -2,10 +2,7 @@ import { useState, useEffect } from "react";
 import './styles.css';
 import ButtonPrimary from './ButtonPrimary'
 import ButtonSecondary from './ButtonSecondary'
-<<<<<<< HEAD
 import api from "./services/Api";
-=======
->>>>>>> 4117e4a5a42946c41bdee9a8a27e7657f30b1398
 
 function App() {
   const [user, setUser] = useState('')
