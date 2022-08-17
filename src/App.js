@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import './styles.css';
-import ButtonPrimary from './ButtonPrimary'
-import ButtonSecondary from './ButtonSecondary'
+import ButtonPrimary from './ButtonPrimary';
+import ButtonSecondary from './ButtonSecondary';
+import Signup from './Signup'
 import api from "./services/Api";
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
         <div className='login__divider'>
           <hr /> <span>OR</span> <hr />
     </div>
-    <ButtonSecondary name='create account' />
+    <ButtonSecondary name='create account' type='submit' onClick={Signup} />
     </div>
     </div>
   )
