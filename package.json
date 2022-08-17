@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:prod": "ng build --configuration production",
+    "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "eslintConfig": {
     "extends": [
